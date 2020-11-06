@@ -211,6 +211,9 @@ body {
  .profession_company {
      color: #ff8533;
  }
+ .profession_name {
+     margin-right: 10px;
+ }
 
 .time_period {
     color: #a8a8a8;
