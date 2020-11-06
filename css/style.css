@@ -145,18 +145,29 @@ body {
  ,.github_link
  , .tech_name {
     color: #595959;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 28px; 
     text-decoration: none;   
  }
 
  .github_link {
-    font-size: 13px;
+    font-size: 16px;
+    border-bottom: dashed 1px  #595959;
  }
 
  .projects_list {
      margin-bottom: 15px;
+ }
+
+ .projects_link:hover
+ ,.github_link:hover {
+     color: #ff8533;
+ }
+
+ .projects_link:active
+ ,.github_link:active {
+     color: #1e2939;
  }
 
  .projects_item {
