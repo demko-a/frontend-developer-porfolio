@@ -170,6 +170,19 @@ body {
      color: #1e2939;
  }
 
+ .tooltip {
+    position: fixed;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: 1px solid #a8a8a8;
+    border-radius: 4px;
+    font-size: 14px;
+    font-style: italic;
+    color: #1e2939;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+  }
+
  .projects_item {
      font-weight: 700;
      margin-left: 21px;
@@ -237,3 +250,4 @@ body {
     line-height: 24px;  
     margin-bottom: 10px;  
 }
+
