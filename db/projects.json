@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Delivery Food (Intensive JS)",
+        "description": "Сервис по заказу еды из ресторанов. Карточки ресторанов и блюд формируются из бд, есть живой поиск по блюдам, корзина и авторизация.",
+        "github_link": "https://github.com/demko-a/delivery-food-intensive-js",
+        "host": "https://delivery-food-intensive-js-demko-a.netlify.app/",
+        "tech": "JavaScript"
+    },
+    {
+        "name": "Научный личный кабинет",
+        "description": "Верстка на bootstrap. НЛК.",
+        "github_link": "https://github.com/demko-a/nlk-bootstrap",
+        "host": "https://nlk-bootstrap-demko-a.netlify.app/",
+        "tech": "Bootstrap"
+    }
+]
