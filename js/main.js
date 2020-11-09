@@ -77,7 +77,8 @@ function onMouseout() {
 const getColorStyle = async function() {
     const url = "http://colormind.io/api/";
     const data = {
-	model : "default",
+    // model : "default",
+    model : "ui",
 	// input : [[44,43,44],[90,83,82],"N","N","N"]
     }
 
