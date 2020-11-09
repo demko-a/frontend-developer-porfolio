@@ -1,6 +1,27 @@
 @import url(
     'https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
 
+:root {
+    /* --main-light-shades: #b3a38b;
+    --main-light-accent: #798168;
+    --main-brand-color: #1e2a12;
+    --main-dark-accent: #5c624f;
+    --main-dark-shades: #121915; */
+
+    --main-light-shades: #f7f5f3;
+    --main-light-accent: #92b4a8;
+    --main-brand-color: #959f3a;
+    --main-dark-accent: #d76524;
+    --main-dark-shades: #272c35;
+
+    /* --main-light-shades: #bcb497;
+    --main-light-accent: #617e72;
+    --main-brand-color: #1e2a12;
+    --main-dark-accent: #5d7462;
+    --main-dark-shades: #131715; */
+}
+
+
 * {
     padding: 0px;
     margin: 0px;
@@ -8,21 +29,22 @@
 }
 
 body {
-    background-color: #f5f7fa;
+    background-color: var(--main-dark-shades);
     padding: 40px 20px;
     font-family: Montserrat, sans-serif;
 }
 
 .wrapper {
-    background-color: #fff;
+    background-color: var(--main-light-shades);
+    color: var(--main-brand-color);
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 9px 20px rgba(20, 20, 20, 0.7);
 }
 
 .sidebar {
-    background-color: #1e2939;
+    background-color: var(--main-light-accent);
     width: 370px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -48,7 +70,7 @@ body {
 }
 
 .contacts_title {
-    color: #fff;
+    color: var(--main-brand-color);
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
@@ -63,13 +85,13 @@ body {
 }
 
 .contacts_link {
-    color: #757c86;
+    color: var(--main-dark-shades);
 }
 
 .contacts_link_type {
     margin-right: 10px;
     font-weight: 700;
-    color: #fff;
+    color: var(--main-dark-shades);
 }
 
 .tech_skils_container {
@@ -82,7 +104,7 @@ body {
     font-size: 22px;
     font-weight: 700;
     line-height: 24px;
-    color: #fff;
+    color: var(--main-brand-color);
     margin-bottom: 20px;
 }
 
@@ -90,16 +112,17 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    color: #ff6b08;
+    color: var(--main-brand-color);
     margin-left: 15px;
 }
 
 .tech_skils_text {
-    color: #dddfe1;
+    color: var(--main-dark-shades);
 }
 
 .sidebar_label {
-    color: #a8a8a8;
+    color: var(--main-dark-shades);
+    font-size: 12px;
     padding: 15px;
 }
 
@@ -121,7 +144,7 @@ body {
 }
 
 .description {
-    color: #595959;
+    color: var(--main-dark-shades);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px; 
@@ -144,11 +167,14 @@ body {
  .projects_link
  ,.github_link
  , .tech_name {
-    color: #595959;
+    color: var(--main-dark-shades);
     font-size: 18px;
     font-weight: 400;
     line-height: 28px; 
     text-decoration: none;   
+ }
+ .tech {
+    color: var(--main-dark-shades);
  }
 
  .github_link {
@@ -162,24 +188,24 @@ body {
 
  .projects_link:hover
  ,.github_link:hover {
-     color: #ff8533;
+     color: var(--main-dark-accent);
  }
 
  .projects_link:active
  ,.github_link:active {
-     color: #1e2939;
+     color: var(--main-brand-color);
  }
 
  .tooltip {
     position: fixed;
     max-width: 400px;
     padding: 10px 20px;
-    border: 1px solid #a8a8a8;
+    border: 1px solid var(--main-dark-shades);
     border-radius: 4px;
     font-size: 14px;
     font-style: italic;
-    color: #1e2939;
-    background: #fff;
+    color: var(--main-dark-shades);
+    background-color: var(--main-light-shades);
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
   }
 
@@ -209,21 +235,21 @@ body {
  }
 
  .profession_company {
-     color: #ff8533;
+     color: var(--main-dark-shades);
  }
  .profession_name {
      margin-right: 10px;
  }
 
 .time_period {
-    color: #a8a8a8;
+    color: var(--main-dark-shades);
     font-size: 12px;
     font-weight: 400;
     line-height: 24px; 
 }
 
 .profession_devider {
-    color: #000;
+    color: var(--main-dark-shades);
 }
 
 .profession_duties {
@@ -232,7 +258,7 @@ body {
 }
 
 .profession_duties_item {
-    color: #595959;
+    color: var(--main-dark-shades);
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -240,7 +266,7 @@ body {
 }
 
 .university_name {
-    color: #ff6b08;
+    color: var(--main-dark-shades);
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;    
@@ -253,4 +279,9 @@ body {
     line-height: 24px;  
     margin-bottom: 10px;  
 }
+
+
+
+
+
 
