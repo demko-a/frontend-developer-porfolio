@@ -1,5 +1,12 @@
 [
     {
+        "name": "Uber Eats",
+        "description": "Верстка страницы ресторанов.",
+        "github_link": "https://github.com/demko-a/uber-eats",
+        "host": "https://uber-eats-demko-a.netlify.app/",
+        "tech": "HTML, CSS, JS"
+    },
+    {
         "name": "Delivery Food (Intensive JS)",
         "description": "Сервис по заказу еды из ресторанов. Карточки ресторанов и блюд формируются из бд, есть живой поиск по блюдам, корзина и авторизация.",
         "github_link": "https://github.com/demko-a/delivery-food-intensive-js",
